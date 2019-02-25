@@ -9,6 +9,6 @@ def line(array)
       array.push(" #{position}. #{name}")
       position += 1
     end
-    puts current_line
+    #puts current_line
   end
 end
