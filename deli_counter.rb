@@ -1,6 +1,6 @@
 # Write your code here.
 def line(array)
-  array.any
+  array.any?
   if TRUE
     puts array
   else
