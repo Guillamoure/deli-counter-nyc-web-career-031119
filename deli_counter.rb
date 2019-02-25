@@ -1,4 +1,4 @@
 # Write your code here.
 def line
-  if katz_deli
+  katz_deli.any
 end
