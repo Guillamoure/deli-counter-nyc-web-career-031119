@@ -4,6 +4,6 @@ def line(array)
   if false
     puts "The line is currently empty"
   elsif true
-    puts "The line is currently empty."
+    puts array
   end
 end
