@@ -5,10 +5,10 @@ def line(array)
   else
     current_line = "The line is currently:"
     position = 1
-    #array.each do |name|
-     # array.push(" #{position}. #{name}")
-    #  position += 1
-    #end
+    array.each do |name|
+      array.push(" #{position}. #{name}")
+      position += 1
+    end
     puts current_line
   end
 end
