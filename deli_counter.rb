@@ -3,7 +3,7 @@ def line(array)
   array.any?
   if TRUE
     puts array
-  else
+  elsif FALSE
     puts "The line is currently empty."
   end
 end
